@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment 1024-bit</title>
+    <!-- JSEncrypt Library -->
+    <script src="https://cdn.jsdelivr.net/npm/jsencrypt@latest/bin/jsencrypt.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="sursa.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enrollment Form</h1>
+        <div class="section">
+            <h2>Sign Up - 1024-bit</h2>
+            <input type="text" id="fullName" placeholder="Enter Full Name">
+            <input type="date" id="birthdate">
+            <input type="text" id="yearLevel" placeholder="Enter Year Level">
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <input type="text" id="userName" placeholder="Enter Username">
+            <input type="password" id="password" placeholder="Enter Password">
+            <button onclick="encrypt1024()">Encrypt 1024-bit</button>
+            <button onclick="decrypt1024()">Decrypt 1024-bit</button>
+        </div>
+
+        <!-- Encryption Result -->
+        <div class="section">
+            <h2>Sign Up Encrypted</h2>
+            <pre id="signupEncrypted"></pre>
+        </div>
+
+        <!-- Decryption Result -->
+        <div class="section">
+            <h2>Sign Up Decrypted</h2>
+            <pre id="signupDecrypted"></pre>
+        </div>
+        <div id="message" class="message"></div>
+    </div>
+
+    <!-- JS -->
+    <script src="sursa.js"></script>
+</body>
+</html>

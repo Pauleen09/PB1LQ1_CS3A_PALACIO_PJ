@@ -1,0 +1,110 @@
+/* Main page */
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Main container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px 40px 50px;
+    border-left: 2px solid #2196d3;
+    border-right: 2px solid #2196d3;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    color: #2196d3;
+    font-size: 48px;
+    letter-spacing: 5px;
+    margin: 20px 0 25px;
+}
+
+/* Section */
+.section {
+    margin-top: 20px;
+    padding: 30px 35px;
+    background: #2196d3;
+    border-radius: 18px;
+}
+
+/* Section headings */
+h2 {
+    color: black;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    display: block;
+    color: black;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Input fields and select */
+input,
+select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+    font-size: 20px;
+    border: none;
+    border-radius: 13px;
+    background: white;
+    color: black;
+}
+
+/* Input focus */
+input:focus,
+select:focus {
+    outline: 2px solid #ffffff;
+}
+
+/* Buttons */
+button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 17px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+    background: #2196d3;
+    color: white;
+    border: 1px solid white;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    background: #1976b5;
+}
+
+/* Encryption and Decryption result sections */
+.section pre {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 13px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    min-height: 50px;
+    font-size: 16px;
+}
+
+/* Message */
+.message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
